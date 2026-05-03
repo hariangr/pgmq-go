@@ -20,6 +20,7 @@ type Message struct {
 	MsgID      int64
 	ReadCount  int64
 	EnqueuedAt time.Time
+	LastReadAt time.Time
 	// VT is "visibility time". The UTC timestamp at which the message will
 	// be available for reading again.
 	VT      time.Time
