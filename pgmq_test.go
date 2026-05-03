@@ -7,7 +7,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/craigpastro/pgmq-go/mocks"
+	"github.com/hariangr/pgmq-go/mocks"
 	"github.com/jackc/pgx/v5/pgconn"
 	"github.com/stretchr/testify/require"
 	"go.uber.org/mock/gomock"
